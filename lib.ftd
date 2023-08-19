@@ -1,0 +1,42 @@
+-- component page:
+children c:
+
+-- ftd.column:
+width: fill-container
+height if {ftd.device == "desktop"}: hug-content
+height if {ftd.device == "mobile"}: auto
+types: 
+colors: 
+background.solid: #141f1f
+
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+types: $roboto-typography.types
+spacing.fixed.px: 40
+children: $page.c
+overflow: scroll
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
