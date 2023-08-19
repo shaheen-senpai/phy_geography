@@ -1,40 +1,57 @@
--- ds.page: Welcome to doc-site
+-- import: shaheen-senpai.github.io/phy_geography/components/v1
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- lib.page:
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- v1.v1_1: Palaeolithic Age
+cover: $assets.files.assets.palaeolithic_v1_1.png
+heading-1: Introduction to the Palaeolithic age
+number-1: 1
+heading-2: Timeline of the Palaeolithic age
+number-2: 2
 
--- ds.h3: 🚀 Fast Track 
+-- v1.v1_2: Palaeolithic Age
+cover: $assets.files.assets.palaeolithic_v1_1.png
+heading-1: Introduction to the Palaeolithic age
+number-1: 1
+heading-2: Timeline of the Palaeolithic age
+number-2: 2
+heading-3: Occupations of Palaeolithic people
+number-3: 3
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- v1.v1_3: Palaeolithic Age
+cover: $assets.files.assets.palaeolithic_v1_3.png
+heading-1: Introduction to the Palaeolithic age
+number-1: 1
+heading-2: Timeline of the Palaeolithic age
+number-2: 2
+heading-3: Occupations of Palaeolithic people
+number-3: 3
+heading-4: Palaeolithic age: hunting and foodgathering culture
+number-4: 4
+heading-5: Types of Palaeolithic tools and their uses
+number-5: 5
 
--- ds.h3: 🌟 Whats next?
+-- v1.v1_3: Palaeolithic Age
+cover: $assets.files.assets.palaeolithic_v1_4.png
+heading-1: Palaeolithic age advanced concepts
+number-1: 6
+heading-2: Timeline details
+number-2: 7
+heading-3: Palaeolithic people occupations
+number-3: 8
+heading-4: Palaeolithic age: hunting and foodgathering culture
+number-4: 9
+heading-5: Types of Palaeolithic tools and their uses
+number-5: 10    
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- v1.v1_4: Palaeolithic Age
+cover: $assets.files.assets.palaeolithic_v1_1.png
+heading: This lesson will cover [Topic name].
 
--- ds.h3: 👀 Want to learn more?
+-- v1.v1_4: Palaeolithic Age
+cover: $assets.files.assets.palaeolithic_v1_1.png
+heading: This lesson will cover [Topic name is very very very very long].
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: lib.page

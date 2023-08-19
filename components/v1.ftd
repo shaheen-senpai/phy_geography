@@ -1,0 +1,417 @@
+
+-- component v1_1:
+ftd.image-src cover:
+caption title: 
+string heading-1: 
+string number-1: 
+optional string heading-2: 
+optional string number-2: 
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+align-content: bottom-left
+
+-- ftd.text: $v1_1.title
+color: #0A574F
+role: $inherited.types.heading-large
+padding-left.px: 20
+padding-right.px: 20
+margin-bottom.px: 32
+
+
+-- ftd.column:
+height: hug-content
+spacing.fixed.px: 32
+padding-right.px: 20
+
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_1.number-1
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_1.heading-1
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_1.number-2
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_1.heading-2
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+
+-- end: ftd.column
+
+
+-- ftd.column:
+
+-- ftd.image: $v1_1.cover
+height: 
+width: fill-container
+margin-top.px: 32
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+-- end: v1_1
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component v1_2:
+ftd.image-src cover:
+caption title: 
+string heading-1: 
+string number-1: 
+string heading-2: 
+string number-2: 
+string heading-3: 
+string number-3: 
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+align-content: bottom-left
+
+-- ftd.text: $v1_2.title
+color: #0A574F
+role: $inherited.types.heading-large
+padding-left.px: 20
+padding-right.px: 20
+margin-bottom.px: 32
+
+
+-- ftd.column:
+height: hug-content
+spacing.fixed.px: 32
+padding-right.px: 20
+
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_2.number-1
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_2.heading-1
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_2.number-2
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_2.heading-2
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_2.number-3
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_2.heading-3
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+
+-- ftd.column:
+
+-- ftd.image: $v1_2.cover
+height: 
+width: fill-container
+margin-top.px: 32
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+-- end: v1_2
+
+
+
+
+
+
+
+
+
+
+
+-- component v1_3:
+ftd.image-src cover:
+caption title: 
+string heading-1:
+string number-1:
+string heading-2:
+string number-2:
+string heading-3:
+string number-3:
+string heading-4:
+string number-4:
+string heading-5:
+string number-5:
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+align-content: bottom-left
+
+-- ftd.text: $v1_3.title
+color: #0A574F
+role: $inherited.types.heading-large
+padding-left.px: 20
+padding-right.px: 20
+margin-bottom.px: 32
+
+
+-- ftd.column:
+height: hug-content
+spacing.fixed.px: 32
+padding-right.px: 20
+
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_3.number-1
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_3.heading-1
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_3.number-2
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_3.heading-2
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_3.number-3
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_3.heading-3
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_3.number-4
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_3.heading-4
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- ftd.row:
+padding-left.px: 20
+align-content: center
+
+-- ftd.text: $v1_3.number-5
+width.fixed.px: 20
+height.fixed.px: 20
+margin-right.px: 10
+color: #0A574F
+background.solid: #C9E4E2
+text-align: center
+border-radius.px: 100
+padding.px: 0
+
+-- ftd.text: $v1_3.heading-5
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+
+-- ftd.column:
+
+-- ftd.image: $v1_3.cover
+height: 
+width: fill-container
+margin-top.px: 32
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+-- end: v1_3
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component v1_4:
+ftd.image-src cover:
+caption title: 
+string heading: 
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+align-content: bottom-left
+
+-- ftd.text: $v1_4.title
+color: #0A574F
+role: $inherited.types.heading-large
+padding-left.px: 20
+padding-right.px: 20
+margin-bottom.px: 32
+
+-- ftd.text: $v1_4.heading
+color: #0A574F
+role: $inherited.types.heading-tiny
+padding-left.px: 20
+padding-right.px: 20
+
+-- ftd.column:
+
+-- ftd.image: $v1_4.cover
+height: 
+width: fill-container
+margin-top.px: 32
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+-- end: v1_4
