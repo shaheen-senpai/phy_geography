@@ -1,0 +1,173 @@
+-- component v4_1:
+string year:
+string content-1: 
+string content-2: 
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: top-left
+padding-top.px: 100
+padding-horizontal.px: 32
+background.image: $bg-cloud-3
+
+-- ftd.text: $v4_1.year
+color: #0A574F
+role: $inherited.types.heading-hero
+
+-- ftd.text: $v4_1.content-1
+color: #0A574F
+role: $inherited.types.heading-small
+padding-vertical.px: 32
+border-bottom-width.px: 2
+border-color: #77A8A3
+
+-- ftd.text: $v4_1.content-2
+color: #0A574F
+role: $inherited.types.heading-small
+padding-vertical.px: 32
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v4_1
+
+
+
+
+
+
+
+
+
+
+
+
+-- component v4_2:
+ftd.image-src vector:
+string title:
+string content: 
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+padding-horizontal.px: 32
+background.image: $bg-cloud-1
+
+-- ftd.image: $v4_2.vector
+
+-- ftd.text: $v4_2.title
+color: #0A574F
+role: $inherited.types.heading-hero
+margin-top.px: 32
+text-align: center
+
+-- ftd.text: $v4_2.content
+color: #0A574F
+role: $inherited.types.heading-small
+padding-vertical.px: 32
+text-align: center
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v4_2
+
+
+
+
+
+
+
+
+
+
+
+-- component v4_3:
+ftd.image-src cover:
+string title:
+string content: 
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+padding-horizontal.px: 32
+background.image: $bg-cloud-2
+
+-- ftd.image: $v4_3.cover
+width.fixed.px: 200
+height.fixed.px: 200
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.text: $v4_3.title
+color: #0A574F
+role: $inherited.types.heading-hero
+margin-top.px: 32
+text-align: center
+
+-- ftd.text: $v4_3.content
+color: #0A574F
+role: $inherited.types.heading-small
+padding-vertical.px: 32
+text-align: center
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v4_3
+
+
+
+
+
+
+
+
+
+
+-- ftd.background-image bg-cloud-3:
+src: $assets.files.assets.background-3.svg
+repeat: no-repeat
+position: center-bottom
+size: contain
+
+
+
+-- ftd.background-image bg-cloud-1:
+src: $assets.files.assets.background-1.svg
+repeat: no-repeat
+position: center-bottom
+size: contain
+
+
+
+-- ftd.background-image bg-cloud-2:
+src: $assets.files.assets.background-2.svg
+repeat: no-repeat
+position: center-bottom
+size: contain
