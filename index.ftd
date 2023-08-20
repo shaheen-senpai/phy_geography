@@ -1,5 +1,5 @@
 -- import: shaheen-senpai.github.io/phy_geography/components/v1
-
+-- import: shaheen-senpai.github.io/phy_geography/components/v2
 
 
 -- lib.page:
@@ -53,5 +53,48 @@ heading: This lesson will cover [Topic name].
 -- v1.v1_4: Palaeolithic Age
 cover: $assets.files.assets.palaeolithic_v1_1.png
 heading: This lesson will cover [Topic name is very very very very long].
+
+
+
+
+-- v2.v2_1: 
+cover-1: $assets.files.assets.babur.jpeg
+heading-1: **Babur**
+content-1: He was the founder of the Mughal Empire in the Indian subcontinent.
+cover-2: $assets.files.assets.akbar.jpeg
+heading-2: **Akbar**
+content-2: He was the third Mughal emperor, who reigned from 1556 to 1605.
+cover-3: $assets.files.assets.Jahangir.webp
+heading-3: **Jahangir**
+content-3: He was the fourth Mughal Emperor, who ruled from 1605 until his death in 1627.
+
+-- v2.v2_2: Types of materials used to create tools
+cover-1: $assets.files.assets.Quartzite.jpeg
+heading-1: **Quartzite**
+content-1: Hard and durable material, used for Cores, Flakes and various tools.
+cover-2: $assets.files.assets.Limestone.jpg
+heading-2: **Limestone**
+content-2: Due to its softness, it is seldom used for tool making, occasionally used for Choppers and Scrapers.
+
+-- v2.v2_3: 
+cover-1: $assets.files.assets.babur.jpeg
+heading-1: **Babur**
+cover-2: $assets.files.assets.akbar.jpeg
+heading-2: **Akbar**
+cover-3: $assets.files.assets.Jahangir.webp
+heading-3: **Jahangir**
+
+-- v2.v2_4: Types of materials used to create tools
+cover-1: $assets.files.assets.Quartzite.jpeg
+heading-1: **Quartzite**
+content-1: Hard and durable material, used for Cores, Flakes and various tools.
+cover-2: $assets.files.assets.Limestone.jpg
+heading-2: **Limestone**
+content-2: Due to its softness, it is seldom used for tool making, occasionally used for Choppers and Scrapers.
+
+Types of materials used to create tools
+
+
+
 
 -- end: lib.page

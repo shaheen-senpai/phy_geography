@@ -1,0 +1,497 @@
+
+-- component v2_1:
+ftd.image-src cover-1:
+ftd.image-src cover-2:
+ftd.image-src cover-3:
+string heading-1: 
+string heading-2: 
+string heading-3: 
+string content-1: 
+string content-2: 
+string content-3: 
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: top-left
+padding-top.px: 100
+background.image: $bg-cloud-1
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_1.cover-1
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_1.heading-1
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- ftd.text: $v2_1.content-1
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_1.cover-2
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_1.heading-2
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- ftd.text: $v2_1.content-2
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_1.cover-3
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_1.heading-3
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- ftd.text: $v2_1.content-3
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v2_1
+
+
+
+
+
+
+
+
+
+
+
+
+-- component v2_2:
+caption title:
+ftd.image-src cover-1:
+ftd.image-src cover-2:
+string heading-1: 
+string heading-2: 
+string content-1: 
+string content-2: 
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: top-left
+padding-top.px: 100
+background.image: $bg-cloud-2
+
+-- ftd.text: $v2_2.title
+color: #0A574F
+role: $inherited.types.heading-medium
+padding-horizontal.px: 30
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_2.cover-1
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_2.heading-1
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- ftd.text: $v2_2.content-1
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_2.cover-2
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_2.heading-2
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- ftd.text: $v2_2.content-2
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v2_2
+
+
+
+
+
+
+
+
+
+
+
+
+-- component v2_3:
+ftd.image-src cover-1:
+ftd.image-src cover-2:
+ftd.image-src cover-3:
+string heading-1: 
+string heading-2: 
+string heading-3: 
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: top-left
+padding-top.px: 100
+background.image: $bg-cloud-1
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_3.cover-1
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_3.heading-1
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_3.cover-2
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_3.heading-2
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_3.cover-3
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_3.heading-3
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v2_3
+
+
+
+
+
+
+
+
+
+
+
+
+-- component v2_4:
+caption title:
+body text:
+ftd.image-src cover-1:
+ftd.image-src cover-2:
+string heading-1: 
+string heading-2: 
+string content-1: 
+string content-2: 
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: top-left
+padding-top.px: 100
+background.image: $bg-cloud-2
+
+-- ftd.text: $v2_4.title
+color: #0A574F
+role: $inherited.types.heading-medium
+padding-horizontal.px: 30
+text-align: start
+
+-- ftd.text: $v2_4.text
+color: #0A574F
+role: $inherited.types.heading-tiny
+padding-horizontal.px: 30
+margin-top.px: 16
+text-align: start
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_4.cover-1
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_4.heading-1
+color: #0A574F
+role: $inherited.types.heading-small
+text-align: start
+
+-- ftd.text: $v2_4.content-1
+color: #0A574F
+role: $inherited.types.heading-tiny
+text-align: start
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+align-content: center
+margin-top.px: 32
+spacing: space-evenly
+
+-- ftd.image: $v2_4.cover-2
+width.fixed.px: 128
+height.fixed.px: 128
+border-radius.px: 100
+border-width.px: 5
+border-color: #C9E4E2   
+
+-- ftd.column:
+width.fixed.percent: 55
+height: hug-content
+
+-- ftd.text: $v2_4.heading-2
+color: #0A574F
+role: $inherited.types.heading-small
+
+-- ftd.text: $v2_4.content-2
+color: #0A574F
+role: $inherited.types.heading-tiny
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v2_4
+
+
+
+
+
+
+
+
+
+-- ftd.background-image bg-cloud-1:
+src: $assets.files.assets.background-1.svg
+repeat: no-repeat
+position: center-bottom
+size: contain
+
+
+
+-- ftd.background-image bg-cloud-2:
+src: $assets.files.assets.background-2.svg
+repeat: no-repeat
+position: center-bottom
+size: contain
