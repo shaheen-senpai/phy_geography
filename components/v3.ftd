@@ -1,0 +1,96 @@
+-- component v3_1:
+caption title:
+body text:
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+padding-horizontal.px: 64
+background.image: $bg-cloud-1
+
+-- ftd.text: $v3_1.title
+color: #77A8A3
+role: $inherited.types.heading-tiny
+text-align: center
+
+-- ftd.text: $v3_1.text
+color: #0A574F
+role:$inherited.types.heading-medium
+text-align: center
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v3_1
+
+
+
+
+
+
+
+
+
+
+
+-- component v3_2:
+caption title:
+body text:
+
+
+-- ftd.column:
+width.fixed.px: 480
+height.fixed.px: 1013
+background.solid: #E4F9F7
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+padding-horizontal.px: 64
+background.image: $bg-cloud-2
+
+-- ftd.text: $v3_2.title
+color: #77A8A3
+role: $inherited.types.heading-tiny
+text-align: center
+
+-- ftd.text: $v3_2.text
+color: #0A574F
+role:$inherited.types.heading-medium
+text-align: center
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: v3_2
+
+
+
+
+
+
+
+
+
+-- ftd.background-image bg-cloud-1:
+src: $assets.files.assets.background-1.svg
+repeat: no-repeat
+position: center-bottom
+size: contain
+
+
+-- ftd.background-image bg-cloud-2:
+src: $assets.files.assets.background-2.svg
+repeat: no-repeat
+position: center-bottom
+size: contain
