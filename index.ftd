@@ -1,6 +1,7 @@
 -- import: shaheen-senpai.github.io/phy_geography/components/v1
 -- import: shaheen-senpai.github.io/phy_geography/components/v2
 -- import: shaheen-senpai.github.io/phy_geography/components/v3
+-- import: shaheen-senpai.github.io/phy_geography/components/v4
 
 -- lib.page:
 
@@ -57,6 +58,7 @@ heading: This lesson will cover [Topic name is very very very very long].
 
 
 
+
 -- v2.v2_1: 
 cover-1: $assets.files.assets.babur.jpeg
 heading-1: **Babur**
@@ -97,6 +99,7 @@ Types of materials used to create tools
 
 
 
+
 -- v3.v3_1: GETTING STARTED 
 
 Introduction to the Palaeolithic age
@@ -108,5 +111,25 @@ Timeline of the Palaeolithic age
 
 
 
+
+-- v4.v4_1:
+year: 1947
+content-1: was a very important year for the Indian civil mutiny against the British.
+content-2: India became independent from the British crown, resulting in the split of India and Pakistan. India became a democracy.
+
+-- v4.v4_2:
+vector: $assets.files.assets.globe.svg
+title: 4:2:1
+content: was the ratio of the proportions of bricks used in the construction.
+
+-- v4.v4_2:
+vector: $assets.files.assets.globe.svg
+title: An egalitarian society
+content: was formed due to the absence of social hierarchies.
+
+-- v4.v4_3:
+cover: $assets.files.assets.constitution.jpeg
+title: 26 November 1672
+content: The Constituent Assembly of India adopted the Constitution which then came into effect from 26th January 1950.
 
 -- end: lib.page
